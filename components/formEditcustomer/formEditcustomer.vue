@@ -157,14 +157,18 @@ export default {
    
   },
   computed: {
-      model : {
-          get() {
-              return {...this.$store.state.customer.customer}
-          },
-          set(value){
-            this.$store.commit("customer/storeCustomer", value)
-          }
-      }
+    //   model : {
+    //       get() {
+    //           return {...this.$store.state.customer.customer}
+    //       },
+    //       set(value){
+    //         this.$store.commit("customer/storeCustomer", value)
+    //       }
+    //   },
+      model() { 
+            var x = this.$attrs.value;
+            return x;
+        }
   },
   mounted() {
     var vm = this;

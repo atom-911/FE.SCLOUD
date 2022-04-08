@@ -106,6 +106,8 @@
                     >
                     <template #default="props">
                         <formEditcustomer
+                        v-model="model"
+                        :unit.sync="model"
                         @close="props.close"
                         :active.sync="isComponentModalEditActive"
                         ></formEditcustomer>
@@ -149,7 +151,15 @@ export default {
         perPage: 10,
         isComponentModalActive: false,
         loading: false,
-       
+       model: {
+        name : '',
+        phone: '',
+        address: '',
+        email:'',
+        idNumber:'',
+        birthDay:'',
+        sex: 'Nam',
+       }
     }
   },
   methods: {
@@ -173,7 +183,8 @@ export default {
     },
     CustomerEdit(item) {
         this.isComponentModalEditActive = true;
-        this.$store.commit("customer/storeCustomer", item)
+        this.model = item;
+        //this.$store.commit("customer/storeCustomer", item)
        //this.$store.dispatch('customer/customer',item)
     },
     refresh(){
