@@ -8,7 +8,7 @@
       <div class="mr-2">
         <b-button
             class="bg-gradient-to-r from-yellow-500 to-yellow-400"
-            label="Thêm khách hàng mới"
+            label="Thêm khách hàng"
             type="is-primary"
             size="is-normal"
             @click="isComponentModalActive = true"
