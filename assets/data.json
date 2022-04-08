@@ -1,0 +1,71 @@
+data: [
+   {
+      "id" : 1,
+      "serviceType" : "Tên miền",
+      "list" :  [ 
+          {
+             "domain": "itvungtau.com",
+             "customer" : "Nguyễn Văn Cường",
+             "status" : "Đang sử dụng",
+             "startDate" : "2016/10/14",
+             "endDate" : "2022/10/14",
+             "price" : "350000"
+          },
+          {
+             "domain": "itvungtau.vn",
+             "customer" : "Nguyễn Văn Cường",
+             "status" : "Đang sử dụng",
+             "startDate" : "2016/10/14",
+             "endDate" : "2022/10/14",
+             "price" : "650000"
+          }
+       ],
+      
+   },
+   {
+    "id" : 2,
+    "serviceType" : "SSL",
+    "list" :  [ 
+        {
+           "domain": "itvungtau.com",
+           "customer" : "Nguyễn Văn Cường",
+           "status" : "Đang sử dụng",
+           "startDate" : "2016/10/14",
+           "endDate" : "2022/10/14",
+           "price" : "350000"
+        },
+        {
+           "domain": "itvungtau.vn",
+           "customer" : "Nguyễn Văn Cường",
+           "status" : "Đang sử dụng",
+           "startDate" : "2016/10/14",
+           "endDate" : "2022/10/14",
+           "price" : "350000"
+        }
+     ],
+    
+ },
+ {
+    "id" : 3,
+    "serviceType" : "Mail doanh nghiệp",
+    "list" :  [ 
+        {
+           "domain": "itvungtau.com",
+           "customer" : "Nguyễn Văn Cường",
+           "status" : "Đang sử dụng",
+           "startDate" : "2016/10/14",
+           "endDate" : "2022/10/14",
+           "price" : "1350000"
+        },
+        {
+           "domain": "itvungtau.vn",
+           "customer" : "Nguyễn Văn Cường",
+           "status" : "Đang sử dụng",
+           "startDate" : "2016/10/14",
+           "endDate" : "2022/10/14",
+           "price" : "2350000"
+        }
+     ],
+    
+ },
+]
